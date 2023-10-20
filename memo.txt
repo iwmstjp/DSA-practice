@@ -1,2 +1,7 @@
 //　演算子は切り捨て
+
 List.pop(0) 先頭を削除
+
+Dict.get(key, value) keyが存在しない場合、valueを返してくれる。辞書の変更はない。
+
+ord("A") AのUnicodeの値を返す
