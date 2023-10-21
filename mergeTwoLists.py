@@ -11,6 +11,7 @@ class Solution:
                 result.next = list2
                 result = result.next
                 list2 = list2.next
+        #残りは繋げるだけで、残りがつながる。
         while list1:
             result.next = list1
             result = result.next
